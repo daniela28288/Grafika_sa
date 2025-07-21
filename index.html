@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Grafika - Detalles Personalizados</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/iconologo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="contenedor-marquee">
+    <div class="marquee-contenido">
+      <span>🎁 Descubre una colección única de productos pensados para sorprender: regalos personalizados, detalles hechos a mano y ofertas especiales que no te querrás perder 💖. Haz tu pedido hoy y recibe envío gratis a todo el país 🚚✨. ¡Calidad, creatividad y cariño en cada entrega!</span>
+      <span>🎁 Descubre una colección única de productos pensados para sorprender: regalos personalizados, detalles hechos a mano y ofertas especiales que no te querrás perder 💖. Haz tu pedido hoy y recibe envío gratis a todo el país 🚚✨. ¡Calidad, creatividad y cariño en cada entrega!</span>
+    </div>
+  </div>
+<header>
+  <img src="img/logo.png" alt="Logo Grafika" />
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#ofertas">Ofertas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1 id="titulo">Detalles únicos para momentos especiales</h1>
+  <p>Suéteres sublimados, anchetas, cajas de regalo, mugs personalizados, ramos de dulces y mucho más.</p>
+  <a href="https://wa.me/573173014478" class="btn">
+    <img class="icon-whatsapp" src="img/whatsapp.png" alt="">
+    Contactanos
+
+  </a>
+</section>
+
+  <section class="banner">
+    <div class="banner-text">
+      <h1>¡Regalos que Enamoran!</h1>
+      <p>Descubre detalles únicos para sorprender a quienes más amas. Personalizamos tu emoción en cada regalo.</p>
+      <button class="boton">Ver productos</button>
+    </div>
+    <div class="banner-img">
+      <img src="img/productos.png" alt="Caja de regalos morados">
+    </div>
+  </section>
+
+<section id="productos" class="productos">
+  <h2 class="titulo-seccion">Nuestros Productos Estrella</h2>
+  <div class="contenedor-productos">
+
+    <article class="producto">
+      <div class="imagen-contenedor">
+        <img src="img/behind.png" alt="Suéter Sublimado" />
+      </div>
+        <p>Diseña tu propio suéter con imagen y texto único.</p>
+      </div>
+    </article>
+
+    <article class="producto">
+      <div class="imagen-contenedor">
+        <img src="img/mugpagina.png" alt="Mug Personalizado" />
+      </div>
+      <div class="producto-info">
+        <h3>Mug Personalizado</h3>
+        <p>Tu foto o frase favorita impresa en una taza inolvidable.</p>
+      </div>
+    </article>
+
+    <article class="producto">
+      <div class="imagen-contenedor">
+        <img id="ancheta" src="img/ancheta.png" alt="Anchetas" />
+      </div>
+      <div class="producto-info">
+        <h3>Anchetas</h3>
+        <p>Cestas personalizadas con productos seleccionados con amor.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- SECCIÓN TESTIMONIOS -->
+<section class="testimonios">
+  <h2>Lo que dicen nuestros clientes 💬</h2>
+  <div class="contenedor-testimonios">
+    <div class="testimonio">
+      <img src="img/testi1.jpg" alt="Cliente feliz">
+      <p>"El mug personalizado fue un éxito total. ¡Volveré a pedir sin duda!"</p>
+      <h4>– Jessica M.</h4>
+    </div>
+    <div class="testimonio">
+      <img src="img/testi2.jpg" alt="Cliente feliz">
+      <p>"La ancheta que enviaron estaba hermosa y llegó justo a tiempo."</p>
+      <h4>– Manuel</h4>
+    </div>
+    <div class="testimonio">
+      <img src="img/testi3.jpg" alt="Cliente feliz">
+      <p>"El suéter con mi diseño quedó espectacular. Excelente calidad."</p>
+      <h4>– Anónimo</h4>
+    </div>
+  </div>
+</section>
+
+<section class="formulario-testimonio">
+  <h2>¿Quieres compartir tu experiencia? ✨</h2>
+  <p>Déjanos tu testimonio, nos encantaría leerte 💜</p>
+  <form id="formTestimonio" enctype="multipart/form-data">
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu testimonio aquí..." required></textarea>
+    <div class="formulario-campo imagen-subida">
+    <div class="custom-file-upload">
+      <input type="file" id="imagen" name="imagen" accept="image/*">
+      <span>Selecciona una imagen (Opcional)</span>
+    </div>
+</div>
+    <button type="submit">Enviar testimonio</button>
+  </form>
+</section>
+
+
+
+<!-- SECCIÓN GALERÍA DE INSPIRACIÓN -->
+<section class="galeria">
+  <h2>Inspírate con nuestras creaciones ✨</h2>
+  <div class="contenedor-galeria">
+    <img src="img/creacion1.jpg" alt="Ejemplo personalizado 1">
+    <img src="img/creacion3.jpg" alt="Ejemplo personalizado 2">
+    <img src="img/creacion2.jpg" alt="Ejemplo personalizado 3">
+    <img src="img/creacion4.jpg" alt="Ejemplo personalizado 4">
+  </div>
+</section>
+
+  <div class="banner-contacto">
+    <p>¿Tienes dudas o deseas más información?</p>
+    <a href="https://wa.me/573173014478" target="_blank">
+      <img class="icon-whatsapp" src="img/whatsapp.png" alt="">
+      Contáctanos por WhatsApp
+    </a>
+  </div>
+
+<footer id="contacto">
+  <div>
+    <h4>Contacto</h4>
+    <p>Email: grafika@gmail.com<br />Tel: +57 317 301 4478</p>
+  </div>
+  <div>
+    <h4>Síguenos</h4>
+    <p><a href="https://www.instagram.com/grafika_sa/">Instagram</a> | <a href="https://wa.me/573173014478">WhatsApp</a></p>
+  </div>
+  <div>
+    <h4>Dirección</h4>
+    <p>La Guajíra, Colombia</p>
+  </div>
+</footer>
+
+</body>
+</html>
