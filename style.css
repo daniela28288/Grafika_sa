@@ -610,4 +610,8 @@
     .hero h1 {
       font-size: 2.2rem;
     }
+
+    .banner-contacto a {
+      width: 300px;
+    }
   }
